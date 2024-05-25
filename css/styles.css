@@ -16,7 +16,7 @@ body {
 
 header {
     background-color: #779AC4; /* Blue */
-    color: white;
+    color: #F8EABA; /* Cream */
     padding: 20px 0;
     text-align: center;
     border-bottom: 2px solid #1a73e8;
@@ -59,7 +59,7 @@ section {
 }
 
 h2 {
-    color: #1a73e8;
+    color: #F8EABA; /* Cream */
 }
 
 footer {

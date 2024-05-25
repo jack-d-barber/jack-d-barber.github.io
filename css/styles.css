@@ -32,7 +32,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: #F8EABA; /* Cream */
     text-decoration: none;
 }
 
@@ -60,17 +60,8 @@ h2 {
 }
 
 footer {
-    background-color: #4285f4;
-    color: white;
+    background-color: #F8EABA; #779AC4; /* Blue */
+    color: #F8EABA; /* Cream */
     text-align: center;
     padding: 10px 0;
-}
-
-.social-icon {
-    margin-left: auto;
-    font-size: 24px;
-}
-
-.social-icon a {
-    color: #fff;
 }

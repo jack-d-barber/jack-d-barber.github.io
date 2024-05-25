@@ -62,18 +62,19 @@ section {
 
 .section-text {
     flex: 3; /* Takes up 3/4 of the section width */
+    padding: 20px;
 }
 
 .section-image {
     flex: 1; /* Takes up 1/4 of the section width */
     margin-left: 20px; /* Add space between text and image */
+    margin-right: 20px; /* Add space between text and image */
 }
 
 .styled-image {
     max-width: 100%; /* Ensure images don't exceed their container width */
     height: auto; /* Maintain aspect ratio */
     border: 5px solid #F8EABA; /* Cream */
-    border-radius: 8px; /* Border radius */
     margin-bottom: 20px; /* Add some space between images */
 
 h2 {

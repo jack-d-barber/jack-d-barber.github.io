@@ -84,6 +84,15 @@ h2 {
     color: #F8EABA; /* Cream */
 }
 
+a { /* Hyperlink settings */
+    color: #8D5E38 /* Brown */
+    text-decoration: none; /* Optional: Remove the underline */
+}
+
+a:visited { /* Visited hyperlink settings */
+    color: #8D5E38 /* Brown */
+}
+
 footer {
     background-color: #779AC4; /* Blue */
     color: #F8EABA; /* Cream */

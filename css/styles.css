@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F8EABA;
-    color: #191919;
+    background-color: #F8EABA; /* Cream */
+    color: #191919; /* Off-black */
 }
 
 header {
-    background-color: #4285f4;
+    background-color: #779AC4; /* Blue */
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -37,6 +37,18 @@ section {
     border-radius: 8px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-section {
+    background-color: #F67474 /* Red */
+}
+
+.work-section {
+    background-color: #F3A668; /* Orange */
+}
+
+.contact-section {
+    background-color: #5FAD87; /* Green */
 }
 
 h2 {

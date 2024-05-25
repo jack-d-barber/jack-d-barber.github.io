@@ -19,7 +19,6 @@ header {
     color: #F8EABA; /* Cream */
     padding: 20px 0;
     text-align: center;
-    border-bottom: 2px solid #1a73e8;
 }
 
 header nav ul {
@@ -40,9 +39,7 @@ header nav ul li a {
 section {
     margin: 40px 20px;
     padding: 20px;
-    border: 2px solid #1a73e8;
     border-radius: 8px;
-    background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 

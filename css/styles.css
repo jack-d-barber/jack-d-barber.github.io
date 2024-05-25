@@ -64,8 +64,3 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
-
-/* Remove rounded corners from all elements */
-* {
-    border-radius: 0;
-}

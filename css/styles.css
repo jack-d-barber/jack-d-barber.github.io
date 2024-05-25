@@ -57,7 +57,7 @@ section {
 .section-content {
     display: flex;
     flex-direction: row;
-    align-items: center; /* Vertically center items */
+    align-items: flex-start; /* Align text to top of section */
 }
 
 .section-text {
@@ -72,7 +72,7 @@ section {
 .styled-image {
     max-width: 100%; /* Ensure images don't exceed their container width */
     height: auto; /* Maintain aspect ratio */
-    border: 2px solid #F8EABA; /* Cream */
+    border: 5px solid #F8EABA; /* Cream */
     border-radius: 8px; /* Border radius */
     margin-bottom: 20px; /* Add some space between images */
 

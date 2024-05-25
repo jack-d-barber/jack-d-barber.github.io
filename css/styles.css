@@ -62,7 +62,6 @@ section {
 
 .section-text {
     flex: 3; /* Takes up 3/4 of the section width */
-    padding: 20px;
 }
 
 .section-image {

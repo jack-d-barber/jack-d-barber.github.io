@@ -1,5 +1,12 @@
+@font-face {
+    font-family: 'Cooper Bold';
+    src: url('Cooper-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: 'Futura', sans-serif;
+    font-family: 'Cooper Bold';
     margin: 0;
     padding: 0;
     box-sizing: border-box;

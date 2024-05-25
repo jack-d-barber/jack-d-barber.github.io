@@ -54,6 +54,13 @@ section {
     background-color: #5FAD87; /* Green */
 }
 
+.styled-image {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #F8EABA; /* Cream */
+    border-radius: 8px; /* Border radius */
+    margin-bottom: 20px; /* Add some space between images */
+
 h2 {
     color: #F8EABA; /* Cream */
 }

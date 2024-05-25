@@ -54,6 +54,21 @@ section {
     background-color: #5FAD87; /* Green */
 }
 
+.section-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Vertically center items */
+}
+
+.section-text {
+    flex: 3; /* Takes up 3/4 of the section width */
+}
+
+.section-image {
+    flex: 1; /* Takes up 1/4 of the section width */
+    margin-left: 20px; /* Add space between text and image */
+}
+
 .styled-image {
     max-width: 100%; /* Ensure images don't exceed their container width */
     height: auto; /* Maintain aspect ratio */

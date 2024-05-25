@@ -37,7 +37,7 @@ header nav ul li a {
 }
 
 section {
-    margin: 40px 20px;
+    margin: 40px 40px;
     padding: 20px;
     text-align: justify;
 }
@@ -67,7 +67,6 @@ section {
 .section-image {
     flex: 1; /* Takes up 1/4 of the section width */
     margin-left: 20px; /* Add space between text and image */
-    margin-right: 20px; /* Add space between text and image */
 }
 
 .styled-image {

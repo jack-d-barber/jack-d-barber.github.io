@@ -94,17 +94,15 @@ footer {
 /* Media Queries for Mobile Devices */
 @media (max-width: 768px) {
     .section-content {
-        flex-direction: column; /* Stack items vertically on mobile */
+        flex-direction: column !important; /* Stack items vertically on mobile */
     }
-
-    .section-image {
-        margin-left: 0; /* Remove left margin */
-        margin-top: 20px; /* Add top margin for spacing */
-        order: 2; /* Image should come second */
-    }
-
     .section-text {
         order: 1; /* Text should come first */
         padding-right: 0; /* Remove right padding */
+    }
+    .section-image {
+        order: 2; /* Image should come second */
+        margin-left: 0; /* Remove left margin */
+        margin-top: 20px; /* Add top margin for spacing */
     }
 }

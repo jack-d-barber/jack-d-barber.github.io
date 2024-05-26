@@ -43,19 +43,16 @@ section{
     
 .about-section {
     background-color: #F67474 /* Red */
-    padding: 20px;
     text-align: justify;
 }
 
 .work-section {
     background-color: #F3A668; /* Orange */
-    padding: 20px;
     text-align: justify;
 }
 
 .contact-section {
     background-color: #5FAD87; /* Green */
-    padding: 20px;
     text-align: justify;
 }
 

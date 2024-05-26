@@ -99,3 +99,19 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    .section-content {
+        flex-direction: column; /* Stack items vertically on mobile */
+    }
+
+    .section-image {
+        margin-left: 0; /* Remove left margin */
+        margin-top: 20px; /* Add top margin for spacing */
+    }
+
+    .section-text {
+        padding-right: 0; /* Remove right padding */
+    }
+}

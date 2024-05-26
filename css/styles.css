@@ -36,25 +36,27 @@ header nav ul li a {
     text-decoration: none;
 }
 
+.section{
+    background-colour: #F8EABA; /* Cream */;
+    padding: 20px;
+}
+    
 .about-section {
     background-color: #F67474 /* Red */
     padding: 20px;
     text-align: justify;
-    margin: 10px 20px;
 }
 
 .work-section {
     background-color: #F3A668; /* Orange */
     padding: 20px;
     text-align: justify;
-    margin: 10px 20px;
 }
 
 .contact-section {
     background-color: #5FAD87; /* Green */
     padding: 20px;
     text-align: justify;
-    margin: 10px 20px;
 }
 
 .section-content {

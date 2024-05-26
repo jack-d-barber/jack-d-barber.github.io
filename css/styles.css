@@ -43,17 +43,14 @@ header nav ul li a {
 }
 
 .about-section {
-    margin: 40px 20px;
     background-color: #F67474 /* Red */
 }
 
 .work-section {
-    margin: 40px 20px;
     background-color: #F3A668; /* Orange */
 }
 
 .contact-section {
-    margin: 40px 20px;
     background-color: #5FAD87; /* Green */
 }
 
@@ -61,8 +58,6 @@ header nav ul li a {
     display: flex;
     flex-direction: row;
     align-items: flex-start; /* Align text to top of section */
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
 .section-text {

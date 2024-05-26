@@ -42,7 +42,7 @@ section{
 }
     
 .about-section {
-    background-color: #F67474 /* Red */
+    background-color: #F67474; /* Red */
     text-align: justify;
 }
 
@@ -76,6 +76,7 @@ section{
     height: auto; /* Maintain aspect ratio */
     border: 5px solid #F8EABA; /* Cream */
     margin-bottom: 20px; /* Add some space between images */
+}
 
 h2 {
     color: #F8EABA; /* Cream */

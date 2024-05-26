@@ -70,6 +70,7 @@ section{
 .section-image {
     flex: 1; /* Takes up 1/4 of the section width */
     margin-left: 20px; /* Add space between text and image */
+    margin-top: 20px; /* Add space between top of section and image */
 }
 
 .styled-image {

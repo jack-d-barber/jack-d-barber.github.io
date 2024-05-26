@@ -40,8 +40,6 @@ header nav ul li a {
     margin: 40px 20px;
     padding: 20px;
     text-align: justify;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .about-section {
@@ -63,6 +61,8 @@ header nav ul li a {
     display: flex;
     flex-direction: row;
     align-items: flex-start; /* Align text to top of section */
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .section-text {

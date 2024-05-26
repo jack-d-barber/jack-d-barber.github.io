@@ -39,6 +39,7 @@ header nav ul li a {
 section{
     background-colour: #F8EABA; /* Cream */;
     padding: 20px;
+    margin: 20px 20px; /* Add space between sections */
 }
     
 .about-section {

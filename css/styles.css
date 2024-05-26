@@ -37,21 +37,29 @@ header nav ul li a {
 }
 
 .section {
-    margin: 40px 20px;
-    padding: 20px;
-    text-align: justify;
+    
+   
 }
 
 .about-section {
     background-color: #F67474 /* Red */
+    padding: 20px;
+    text-align: justify;
+    margin: 40px 20px;
 }
 
 .work-section {
     background-color: #F3A668; /* Orange */
+    padding: 20px;
+    text-align: justify;
+    margin: 40px 20px;
 }
 
 .contact-section {
     background-color: #5FAD87; /* Green */
+    padding: 20px;
+    text-align: justify;
+    margin: 40px 20px;
 }
 
 .section-content {

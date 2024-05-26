@@ -36,7 +36,7 @@ header nav ul li a {
     text-decoration: none;
 }
 
-.section {
+section {
     margin: 40px 20px;
     padding: 20px;
     text-align: justify;
@@ -84,15 +84,6 @@ h2 {
     color: #F8EABA; /* Cream */
 }
 
-a { /* Hyperlink settings */
-    color: #8D5E38 /* Brown */
-    text-decoration: none; /* Optional: Remove the underline */
-}
-
-a:visited { /* Visited hyperlink settings */
-    color: #8D5E38 /* Brown */
-}
-
 footer {
     background-color: #779AC4; /* Blue */
     color: #F8EABA; /* Cream */
@@ -109,9 +100,11 @@ footer {
     .section-image {
         margin-left: 0; /* Remove left margin */
         margin-top: 20px; /* Add top margin for spacing */
+        order: 2; /* Image should come second */
     }
 
     .section-text {
+        order: 1; /* Text should come first */
         padding-right: 0; /* Remove right padding */
     }
 }

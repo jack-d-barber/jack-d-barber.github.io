@@ -26,16 +26,6 @@ header nav ul {
     padding: 0;
 }
 
-header nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-header nav ul li a {
-    color: #F8EABA; /* Cream */
-    text-decoration: none;
-}
-
 section{
     background-colour: #F8EABA; /* Cream */;
     padding: 20px;

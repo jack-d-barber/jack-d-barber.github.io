@@ -40,12 +40,13 @@ header nav ul li a {
 section{
     background-colour: #F3E2C6; /* Beige */
     border: 5px solid #191919; /* Black*/
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 5px 5px 0 #191919;
     padding: 20px 40px;
     width: 80%;
     max-width: 800px;
     margin: 20px 20px; /* Add space between sections */
+    align: centre;
 }
     
 .about-section {

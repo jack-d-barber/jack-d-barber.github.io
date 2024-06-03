@@ -17,12 +17,12 @@ body {
 
 header {
     background-color: #F3E2C6; /* Beige */
+    colour: #009A5E; /* Green */
     padding: 20px 0;
     text-align: center;
-    margin: 0 auto; /* Center the header horizontally */
-    colour: #009A5E; /* Green */
     width: 80%; /* Adjust the width to match the content boxes */
     max-width: 800px; /* Ensure the header doesn't exceed a certain width */
+    margin: 0 auto; /* Center the header horizontally */   
 }
 
 h2 {

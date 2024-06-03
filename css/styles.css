@@ -12,7 +12,7 @@ body {
     padding: 0;
     background-color: #F3E2C6; /* Beige */
     box-sizing: border-box;
-    color: #F3E2C6; /* Beige */
+    color: #191919; /* Black*/
 }
 
 header {
@@ -39,12 +39,15 @@ header nav ul li a {
 
 section{
     background-colour: #F3E2C6; /* Beige */
-    border: 5px solid #191919;
+    border: 5px solid #191919; /* Black*/
     border-radius: 15px;
     box-shadow: 5px 5px 0 #191919;
     padding: 20px 40px;
     width: 80%;
     max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 20px 20px; /* Add space between sections */
 }
     
@@ -64,7 +67,7 @@ section{
 }
 
 h2 {
-    color: #F3E2C6; /* Beige */
+    color: #191919; /* Black*/
 }
 
 /* Dashed list styles */
@@ -82,7 +85,7 @@ h2 {
     content: "-";
     position: absolute;
     left: 0;
-    color: #F3E2C6; /* Beige */
+    color: #191919; /* Black*/
 }
 
 footer {

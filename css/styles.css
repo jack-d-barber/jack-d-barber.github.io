@@ -17,7 +17,7 @@ body {
 
 header {
     background-color: #F3E2C6; /* Beige */
-    colour: #009A5E; /* Green */
+    color: #009A5E; /* Green */
     padding: 20px 0;
     text-align: center;
     width: 80%; /* Adjust the width to match the content boxes */
@@ -26,7 +26,7 @@ header {
 }
 
 h2 {
-    colour: #191919; /* Black*/
+    color: #191919; /* Black*/
 }
 
 header nav ul {

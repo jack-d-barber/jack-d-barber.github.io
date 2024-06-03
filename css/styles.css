@@ -15,7 +15,7 @@ body {
     color: #191919; /* Black*/
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 header {

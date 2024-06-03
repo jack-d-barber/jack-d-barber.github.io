@@ -1,22 +1,23 @@
 @font-face {
-    font-family: 'Cooper';
-    src: url('../Cooper-Bold.ttf') format('truetype');
+    font-family: 'MADE Waffle Soft';
+    src: url('../MADE Waffle Soft PERSONAL USE') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
+/* Global Styles */
 body {
-    font-family: 'Cooper', Arial, sans-serif;
+    font-family: 'MADE Waffle Soft', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F8EABA; /* Cream */
+    background-color: #F3E2C6; /* Beige */
     box-sizing: border-box;
-    color: #F8EABA; /* Cream */
+    color: #F3E2C6; /* Beige */
 }
 
 header {
-    background-color: #779AC4; /* Blue */
-    color: #F8EABA; /* Cream */
+    background-color: #F3E2C6; /* Beige */
+    color: #009A5E; /* Green */
     padding: 20px 0;
     text-align: center;
 }
@@ -32,56 +33,38 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #F8EABA; /* Cream */
+    color: #009A5E; /* Green */
     text-decoration: none;
 }
 
 section{
-    background-colour: #F8EABA; /* Cream */;
+    background-colour: #F3E2C6; /* Beige */
+    border: 5px solid #191919;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0 #191919;
     padding: 20px 40px;
+    width: 80%;
+    max-width: 800px;
     margin: 20px 20px; /* Add space between sections */
 }
     
 .about-section {
-    background-color: #F67474; /* Red */
+    background-color: #FFC567; /* Yellow */
     text-align: justify;
 }
 
 .work-section {
-    background-color: #F3A668; /* Orange */
+    background-color: #FC7DA8; /* Pink */
     text-align: justify;
 }
 
 .contact-section {
-    background-color: #5FAD87; /* Green */
+    background-color: #048CD6; /* Blue */
     text-align: justify;
 }
 
-.section-content {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start; /* Align text to top of section */
-}
-
-.section-text {
-    flex: 3; /* Takes up 3/4 of the section width */
-}
-
-.section-image {
-    flex: 1; /* Takes up 1/4 of the section width */
-    margin-left: 20px; /* Add space between text and image */
-    margin-top: 20px; /* Add space between top of section and image */
-}
-
-.styled-image {
-    max-width: 100%; /* Ensure images don't exceed their container width */
-    height: auto; /* Maintain aspect ratio */
-    border: 5px solid #F8EABA; /* Cream */
-    margin-bottom: 20px; /* Add some space between images */
-}
-
 h2 {
-    color: #F8EABA; /* Cream */
+    color: #F3E2C6; /* Beige */
 }
 
 /* Dashed list styles */
@@ -99,12 +82,12 @@ h2 {
     content: "-";
     position: absolute;
     left: 0;
-    color: #F8EABA; /* Cream */
+    color: #F3E2C6; /* Beige */
 }
 
 footer {
-    background-color: #779AC4; /* Blue */
-    color: #F8EABA; /* Cream */
+    background-color: #F3E2C6; /* Beige */
+    color: #009A5E; /* Green */
     text-align: center;
     padding: 10px 0;
 }

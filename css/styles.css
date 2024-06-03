@@ -23,6 +23,7 @@ header {
     color: #009A5E; /* Green */
     padding: 20px 0;
     text-align: center;
+    width: 100%;
 }
 
 header nav ul {
@@ -48,10 +49,11 @@ section{
     padding: 20px 40px;
     width: 80%;
     max-width: 800px;
-    margin: 20px 20px; /* Add space between sections */
+    margin: 20px 0; /* Add space between sections */
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
     
 .about-section {

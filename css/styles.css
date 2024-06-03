@@ -17,16 +17,19 @@ body {
 
 header {
     background-color: #F3E2C6; /* Beige */
-    color: #009A5E; /* Green */
     padding: 20px 0;
     text-align: center;
-    width: 80%; /* Adjust the width to match the content boxes */
-    max-width: 800px; /* Ensure the header doesn't exceed a certain width */
     margin: 0 auto; /* Center the header horizontally */
 }
 
+h1 {
+    colour: #009A5E; /* Green */
+    width: 80%; /* Adjust the width to match the content boxes */
+    max-width: 800px; /* Ensure the header doesn't exceed a certain width */
+}
+
 h2 {
-    color: #191919; /* Black*/
+    colour: #191919; /* Black*/
 }
 
 header nav ul {

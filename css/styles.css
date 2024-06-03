@@ -52,6 +52,16 @@ header nav ul li a {
     align-items: center;
 }
 
+.image-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px 0;
+    border: 5px solid #191919; /* Black */
+    border-radius: 20px;
+    box-shadow: 5px 5px 0 #191919;
+    overflow: hidden; /* Ensure the image respects the border radius */
+}
+
 section{
     background-colour: #F3E2C6; /* Beige */
     border: 5px solid #191919; /* Black*/

@@ -62,10 +62,9 @@ header nav ul li a {
     overflow: hidden; /* Ensure the image respects the border radius */
 }
 
-.image-wrapper {
-    position: relative;
+.image-container img{
     width: 100%;
-    padding-bottom: 200%; /* Adjust this value based on the aspect ratio of your image */
+    height: auto; /* Adjust this value based on the aspect ratio of your image */
 }
 
 section{

@@ -20,10 +20,7 @@ header {
     padding: 20px 0;
     text-align: center;
     margin: 0 auto; /* Center the header horizontally */
-}
-
-h1 {
-    colour: #009A5E; /* Green */
+    text-colour: #009A5E; /* Green */
     width: 80%; /* Adjust the width to match the content boxes */
     max-width: 800px; /* Ensure the header doesn't exceed a certain width */
 }

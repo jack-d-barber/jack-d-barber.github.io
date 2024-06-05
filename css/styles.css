@@ -8,8 +8,6 @@
 /* Global Styles */
 body {
     font-family: 'MADE Waffle Soft', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #F3E2C6; /* Beige */
     box-sizing: border-box;
     color: #191919; /* Black*/
@@ -18,9 +16,8 @@ body {
 header {
     background-color: #F3E2C6; /* Beige */
     color: #009A5E; /* Green */
-    padding: 20px 0;
-    text-align: center;
-    margin: 0 auto; /* Center the header horizontally */   
+    padding: 40px 0;
+    text-align: center;  
 }
 
 header h1 {
@@ -46,25 +43,37 @@ header nav ul li a {
     text-decoration: none;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.container-grid {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(4, 300px);
+    margin: 0 auto;
+    max-width: 80%;
+    min-width: 450px;
 }
 
-.image-container {
-    width: 80%;
-    max-width: 800px;
-    margin: 20px 0;
-    border: 5px solid #191919; /* Black */
+.container-grid-span-2 {
+    grid-column: span 2;
+}
+
+.container-grid-span-3 {
+    grid-column: span 3;
+}
+
+.image-container-1 {
+    background-colour: #F3E2C6; /* Beige */
+    border: 5px solid #191919; /* Black*/
     border-radius: 20px;
     box-shadow: 5px 5px 0 #191919;
     overflow: hidden; /* Ensure the image respects the border radius */
 }
 
-.image-container img{
-    width: 100%;
-    height: auto; /* Adjust this value based on the aspect ratio of your image */
+.image-container-2 {
+    background-colour: #F3E2C6; /* Beige */
+    border: 5px solid #191919; /* Black*/
+    border-radius: 20px;
+    box-shadow: 5px 5px 0 #191919;
+    overflow: hidden; /* Ensure the image respects the border radius */
 }
 
 section{
@@ -73,9 +82,6 @@ section{
     border-radius: 20px;
     box-shadow: 5px 5px 0 #191919;
     padding: 20px 40px;
-    width: 80%;
-    max-width: 800px;
-    margin: 20px 0; /* Add space between sections */
 }
     
 .about-section {
@@ -90,7 +96,7 @@ section{
 
 .contact-section {
     background-color: #048CD6; /* Blue */
-    text-align: left;
+    text-align: right;
 }
 
 /* Dashed list styles */
@@ -115,5 +121,5 @@ footer {
     background-color: #F3E2C6; /* Beige */
     color: #009A5E; /* Green */
     text-align: center;
-    padding: 10px 0;
+    padding: 40px 0;
 }

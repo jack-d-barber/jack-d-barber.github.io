@@ -17,7 +17,7 @@ body {
     overflow-y: scroll;
 }
 
-header, section, footer {
+header, container {
     scroll-snap-align: start;
     height: 100vh; /* Full viewport height */
     display: flex;
@@ -130,4 +130,5 @@ footer {
     background-color: #F3E2C6; /* Beige */
     color: #009A5E; /* Green */
     text-align: center;
+    padding: 40px
 }

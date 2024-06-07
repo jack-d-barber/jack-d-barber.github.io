@@ -10,13 +10,25 @@ body {
     font-family: 'MADE Waffle Soft', Arial, sans-serif;
     background-color: #F3E2C6; /* Beige */
     box-sizing: border-box;
-    color: #191919; /* Black*/
+    color: #191919; /* Black */
+    margin: 0;
+    padding: 0;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+header, section, footer {
+    scroll-snap-align: start;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
 }
 
 header {
     background-color: #F3E2C6; /* Beige */
     color: #009A5E; /* Green */
-    padding: 40px 0;
     text-align: center;  
 }
 
@@ -65,18 +77,6 @@ header nav ul li a {
     border-radius: 20px;
     box-shadow: 5px 5px 0 #191919;
     overflow: hidden; /* Ensure the image respects the border radius */
-}
-
-.page {
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll; /* Enable scrolling */
-    height: 100vh; /* Full viewport height */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center the content horizontally */
-    scroll-snap-align: start;
-    width: 100%; /* Ensure full width */
-    padding: 80px 0;
 }
 
 section{
@@ -130,5 +130,4 @@ footer {
     background-color: #F3E2C6; /* Beige */
     color: #009A5E; /* Green */
     text-align: center;
-    padding: 40px 0;
 }

@@ -67,14 +67,19 @@ header nav ul li a {
     overflow: hidden; /* Ensure the image respects the border radius */
 }
 
-.page > div {
-    scroll-snap-align: center;
-    flex: none;
-    padding: 80px
+.page {
+    display: flex;
+    flex-direction: column;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll; /* Enable scrolling */
+    height: 100vh; /* Full viewport height */
 }
 
-.y.mandatory-scroll-snapping {
-  scroll-snap-type: y mandatory;
+.page > div {
+    scroll-snap-align: start;
+    flex: none;
+    padding: 80px;
+    width: 100%; /* Ensure full width */
 }
 
 section{

@@ -49,7 +49,6 @@ header nav ul li a {
     grid-template-columns: repeat(4, 300px);
     margin: 0 auto;
     max-width: 80%;
-    min-width: 450px;
 }
 
 .container-grid-span-2 {
@@ -60,7 +59,7 @@ header nav ul li a {
     grid-column: span 3;
 }
 
-.image-container-1 {
+.image-container {
     background-colour: #F3E2C6; /* Beige */
     border: 5px solid #191919; /* Black*/
     border-radius: 20px;
@@ -68,12 +67,14 @@ header nav ul li a {
     overflow: hidden; /* Ensure the image respects the border radius */
 }
 
-.image-container-2 {
-    background-colour: #F3E2C6; /* Beige */
-    border: 5px solid #191919; /* Black*/
-    border-radius: 20px;
-    box-shadow: 5px 5px 0 #191919;
-    overflow: hidden; /* Ensure the image respects the border radius */
+.page > div {
+    scroll-snap-align: center;
+    flex: none;
+    padding: 80px
+}
+
+.y.mandatory-scroll-snapping {
+  scroll-snap-type: y mandatory;
 }
 
 section{
@@ -84,19 +85,25 @@ section{
     padding: 20px 40px;
 }
     
-.about-section {
+.section-yellow {
     background-color: #FFC567; /* Yellow */
     text-align: justify;
+    max-height: 16em;
+    min-height: 16em;
 }
 
-.work-section {
+.section-pink {
     background-color: #FC7DA8; /* Pink */
     text-align: justify;
+    max-height: 16em;
+    min-height: 16em;
 }
 
-.contact-section {
+.section-blue {
     background-color: #048CD6; /* Blue */
-    text-align: right;
+    text-align: justify;
+    max-height: 16em;
+    min-height: 16em;
 }
 
 /* Dashed list styles */

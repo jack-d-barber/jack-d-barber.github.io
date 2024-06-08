@@ -15,10 +15,9 @@ body {
     padding: 0;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    height: 100vh;
 }
 
-.header, container {
+header, container {
     scroll-snap-align: start;
     height: 100vh; /* Full viewport height */
     display: flex;

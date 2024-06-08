@@ -18,7 +18,7 @@ body {
     height: 100vh;
 }
 
-header, container {
+.header, container {
     scroll-snap-align: start;
     height: 100vh; /* Full viewport height */
     display: flex;

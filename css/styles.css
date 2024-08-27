@@ -204,8 +204,8 @@ th {
 }
 
 @font-face {
-  font-family: Cooper;
-  src: url(./Cooper-Bold.ttf),
+  font-family: Merriweather;
+  src: url(./merriweather.regular.ttf),
     format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -262,7 +262,7 @@ body {
   background-color: #fff;
   min-height: 100%;
   margin: 0;
-  font-family: Cooper, sans-serif;
+  font-family: Merriweather, sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
@@ -2272,7 +2272,7 @@ textarea.w-select {
   margin-left: auto;
   margin-right: auto;
   padding-left: 0;
-  font-family: Cooper, serif;
+  font-family: Merriweather, serif;
   display: flex;
 }
 
@@ -2408,7 +2408,7 @@ textarea.w-select {
   background-color: #006aff;
   border-radius: 30px;
   padding: 20px 40px;
-  font-family: Cooper, serif;
+  font-family: Merriweather, serif;
   font-size: 12px;
   line-height: 20px;
   transition: all 0.2s;
@@ -2466,7 +2466,7 @@ textarea.w-select {
 
 .margin-bottom-24px {
   margin-bottom: 24px;
-  font-family: Cooper, serif;
+  font-family: Merriweather, serif;
   font-size: 15px;
 }
 
@@ -2509,7 +2509,7 @@ textarea.w-select {
 .heading-2 {
   margin-top: auto;
   margin-bottom: auto;
-  font-family: Cooper, serif;
+  font-family: Merriweather, serif;
   font-size: 47px;
   font-weight: 900;
   line-height: 50px;
@@ -2528,7 +2528,7 @@ textarea.w-select {
 
 .heading-3 {
   color: #191919;
-  font-family: Cooper, serif;
+  font-family: Merriweather, serif;
   font-weight: 900;
 }
 
@@ -2568,7 +2568,7 @@ textarea.w-select {
 .footer-light {
   border-bottom: 1px solid #e4ebf3;
   padding: 0 0 40px;
-  font-family: Cooper, serif;
+  font-family: Merriweather, serif;
   position: relative;
 }
 

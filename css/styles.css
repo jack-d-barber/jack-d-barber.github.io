@@ -205,7 +205,7 @@ th {
 
 @font-face {
   font-family: Merriweather;
-  src: url(../merriweather.regular.ttf),
+  src: url(./Merriweather-Regular.ttf),
     format("truetype");
   font-weight: normal;
   font-style: normal;

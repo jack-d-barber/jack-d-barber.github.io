@@ -1,0 +1,31 @@
+/* General Styles */
+body {
+  font-family: "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+/* Container Layout */
+.container {
+  max-width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Sidebar Content"
+    "Footer Footer";
+}
+
+.Sidebar {
+  grid-area: Sidebar;
+}
+
+.Content {
+  grid-area: Content;
+}
+
+.Footer {
+  grid-area: Footer;
+}
